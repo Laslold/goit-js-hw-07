@@ -27,7 +27,6 @@ galleryEl.addEventListener("click", (e) => {
     return;
   }
   const bigImageUrl = e.target.dataset.source;
-
   const instance = basicLightbox.create(
     `
     <img src="${bigImageUrl}" width="1280" height="auto">
